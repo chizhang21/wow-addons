@@ -28,7 +28,6 @@ local function arenaConfig()
     )
 end
 
---這是載入條件
 local frame = CreateFrame("FRAME", "defaultcvar")
 frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 local function eventHandler(self, event, ...)
