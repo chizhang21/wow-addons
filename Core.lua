@@ -27,7 +27,7 @@ local function arenaConfig()
         end
     )
 end
-# test gpg key
+
 local frame = CreateFrame("FRAME", "defaultcvar")
 frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 local function eventHandler(self, event, ...)
